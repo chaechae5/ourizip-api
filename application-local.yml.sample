@@ -1,0 +1,7 @@
+# application-local.yml.sample
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ourizip
+    username: postgres
+    password: your_password
+
