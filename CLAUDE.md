@@ -34,3 +34,9 @@ API Key는 환경변수로만 관리, 코드에 하드코딩 절대 금지.
 ## 8. Code Conventions
 Kotlin: PascalCase 클래스, camelCase 함수·변수, UPPER_SNAKE_CASE 상수, suspend 함수에서 블로킹 I/O 금지
 REST: /api/v1/{resource} 복수형, 에러응답 { code, message, timestamp } 통일
+
+## Reference Docs
+상세 내용은 'docs/' 경로에 관련 문서 참고
+- 'docs/api-spec.md' : API 엔드포인트, 스키마, enums
+- 'docs/db-schema.md' : 테이블 정보
+- 'docs/architecture.md' : 시스템 아키텍처 다이어그램
